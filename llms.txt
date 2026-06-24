@@ -2,7 +2,7 @@
 
 > Titan is the AI platform for banking. It pairs purpose-built, banking-native AI models with supervised, auditable agents — digital colleagues — to make every banker more productive, while meeting the security, explainability, and regulatory demands of financial institutions.
 
-Titan (legally Titan OS, Inc.) builds banking-native AI delivered through the Titan Foundry platform: small language models trained with banking regulators, senior bank operators, and legal experts, plus supervised banking agents that run with a human in the loop and are auditable by default.
+Titan (legally Titan OS, Inc.) builds banking-native AI delivered through the Titan Foundry platform: small language models developed with input from former banking regulators, senior bank operators, and legal experts, plus supervised banking agents that run with a human in the loop and are auditable by default.
 
 ## Basic information
 
@@ -10,6 +10,7 @@ Titan (legally Titan OS, Inc.) builds banking-native AI delivered through the Ti
 - Description: Banking-native AI platform for financial institutions
 - Category: Fintech
 - Positioning: "The AI platform for banking" — smarter models, agents that know banking, built to make every banker more productive
+- Customers: U.S. community, regional, and super-regional banks and FinTechs, from roughly $500M to $50B in assets
 - Founded: October 2025
 - CEO: Arjun Sirrah
 - Website: https://www.titanbanking.ai
@@ -18,11 +19,12 @@ Titan (legally Titan OS, Inc.) builds banking-native AI delivered through the Ti
 
 ## Platform
 
-Titan Foundry is the platform; it delivers three layers of banking-native AI on an institution's own data.
+Titan Foundry is the platform; it delivers banking-native AI on an institution's own data.
 
-- Titan Foundry: One platform with full context and bank-grade security — deploy banking AI against your own systems and data.
-- Banking Models ([details](https://www.titanbanking.ai/platform#banking-models)): Expert-trained, banking-native models that are auditable by default.
-- Banking Agents ([details](https://www.titanbanking.ai/platform#banking-agents)): Supervised AI "digital colleagues" that execute banking workflows with a human in the loop.
+- Titan Foundry: One platform with full context and bank-grade security — a secure chat interface to deploy banking AI against your own systems and data.
+- Banking Models ([details](https://www.titanbanking.ai/platform#banking-models)): Expert-trained, banking-native intelligence powered by a compact (~8B-parameter) small language model, auditable by default.
+- Banking Agents ([details](https://www.titanbanking.ai/platform#banking-agents)): Supervised AI "digital colleagues" that automate banking workflows end-to-end with a human in the loop.
+- Titan Connectors: Pull data from siloed core, CRM, and data systems so AI runs on institution data — additive, not rip-and-replace.
 
 ## How banks use Titan
 
@@ -33,11 +35,14 @@ Titan Foundry is the platform; it delivers three layers of banking-native AI on 
 
 ## Security & compliance
 
-- SOC 2 compliant.
-- Access control: role-based access control (RBAC) with least privilege, multi-factor authentication (MFA), and endpoint protection.
+- SOC 2 Type I and Type II (audited); security controls continuously monitored; documentation available on request.
+- Access control: enterprise SSO, multi-factor authentication (MFA), and role-based access control (RBAC) with least privilege and endpoint protection.
+- PII protection: PII is detected before reaching the models — lower-risk PII is replaced with cryptographic tokens, and high-risk financial and identity data is designed to be blocked before model processing, with no user action required.
+- Encryption & data use: TLS 1.2+ in transit, AES-256 at rest; customer data is not shared and is not used to train Titan or third-party models.
+- Deployment: multi-tenant, dedicated private cloud, or full on-premises (within client infrastructure) for data residency and model inspection.
+- Governance & audit: human-in-the-loop supervision; every response includes an audit record with a reasoning/evidence trace, an Assurance Level, and a step-by-step breakdown, plus complete audit logging of data access and actions.
+- Regulatory alignment: supports SR 26-2 and Model Risk Management (MRM) alignment — documented training corpus, inspectable model, and bank-controlled updates after MRM review; banks remain responsible for their own model-risk review.
 - Continuous vulnerability testing.
-- Encryption: TLS 1.2+ in transit, AES-256 at rest.
-- Governance: human-in-the-loop supervision and auditability by default; a data-protection layer keeps customer data isolated.
 
 ## Leadership & board
 
@@ -53,9 +58,28 @@ Titan Foundry is the platform; it delivers three layers of banking-native AI on 
 ## Key facts & milestones
 
 - Funding: $3M round led by Entropy Ventures (announced June 2026; Entropy Ventures Fund I's inaugural investment).
-- Traction (per company): seven-figure ARR at stealth launch, tripled in the following seven months.
-- Performance (per company): Titan's banking models reported ~40% more effective than leading general-purpose models on banking tasks.
+- Traction (Titan-reported): seven-figure ARR at stealth launch, tripled in the following seven months.
+- Performance (Titan-reported): across a 7,459-scenario banking benchmark, Titan's banking model reportedly outperformed general-purpose models on every key metric, with compliance officers preferring Titan's responses ~70%+ of the time on average.
 - Evaluation: measured on faithfulness, answer relevance, context precision, and hallucination resistance (RAGAS), and via Titan's Banker Trust Index (BTI); benchmarked against ChatGPT, Gemini, and Claude.
+
+## Frequently asked questions
+
+- [Full FAQ](https://www.titanbanking.ai/faq): the 15 questions below, in full on the site.
+- What is Titan? A banking-native AI platform combining Titan Foundry (a secure chat interface), a proprietary small language model trained exclusively on banking, and Titan Agents (AI digital workers).
+- How is Titan different from ChatGPT, Gemini, or Claude? Titan's model is trained exclusively for banking; in a Titan-reported 7,459-scenario benchmark it outperformed general models on every key metric, with compliance officers preferring it ~70%+ of the time.
+- Is Titan SOC 2 compliant? Yes — SOC 2 Type I and Type II (audited), with continuously monitored controls; it can also deploy within client infrastructure for data residency.
+- How does Titan handle PII? PII is detected before reaching the models; lower-risk PII is tokenized and high-risk financial/identity data is designed to be blocked — no user action required.
+- How does Titan support SR 26-2 / Model Risk Management? Documented training corpus, model deployable in client infrastructure for inspection, updates after MRM review, and a reasoning-trace audit record on every response; banks remain responsible for their own model-risk review.
+- How long does it take to get started? Titan Foundry is available and delivers value from day one — banking regulations, the banking model, and audit logs in a bank-grade environment.
+- Are Titan Agents meant to replace bankers? No — human-in-the-loop: agents collect and analyze data, bankers make the final decisions.
+- What is the difference between Titan Foundry, Banking Models, and Banking Agents? Foundry is the secure chat interface; the Banking Model provides banking-specific intelligence; Agents automate specific workflows end-to-end.
+- What is a small language model (SLM) and why use one over an LLM? A compact, specialized model (~8B parameters vs. hundreds of billions); the model comes to your data rather than the reverse.
+- What size institutions does Titan work with? U.S. community, regional, and super-regional banks and FinTechs, roughly $500M to $50B in assets.
+- How do regulators view AI like Titan? The question has shifted from "what AI are you using?" to "how do you govern it?" — Titan offers inspectable models, documented data, on-prem options, full audit trails, and bank-controlled updates.
+- How does Titan control access and authenticate users? Enterprise SSO, MFA, and role-based access controls with complete audit logging.
+- How does Titan prevent hallucinations and ensure accuracy? Responses are grounded in client data (via Connectors or uploads), cite sources, and include an Audit Log with an Assurance Level and step-by-step breakdown.
+- Does Titan work alongside existing systems? Yes — additive, not rip-and-replace; Titan Connectors pull from siloed systems while existing systems stay unchanged.
+- How is Titan deployed? Multi-tenant, dedicated private cloud, or full on-premises; data is encrypted in transit and at rest, not shared, and not used to train models.
 
 ## Pages
 
@@ -63,7 +87,8 @@ Titan Foundry is the platform; it delivers three layers of banking-native AI on 
 - [Platform](https://www.titanbanking.ai/platform): Titan Foundry, Banking Models, and Banking Agents — a secured, auditable platform delivering context-aware AI colleagues for banking.
 - [Why Titan](https://www.titanbanking.ai/why-titan): The case for purpose-built banking AI — the safety, auditability, and specificity general-purpose models cannot deliver.
 - [Company](https://www.titanbanking.ai/about-company): Titan's leadership, engineering team, and board of banking and regulatory veterans.
-- [Banking Models Waitlist](https://www.titanbanking.ai/banking-models-waitlist): Request early access to Titan Banking Models.
+- [Banking Models](https://www.titanbanking.ai/banking-models): Banking-model waitlist and Banker Trust Index whitepaper request.
+- [FAQ](https://www.titanbanking.ai/faq): Answers on what Titan is, security/compliance (SOC 2, SR 26-2), PII handling, deployment, the SLM, and supported institutions.
 - [Newsroom](https://www.titanbanking.ai/newsroom): Press releases, board appointments, funding news, and thought leadership.
 
 ## Newsroom
@@ -91,6 +116,6 @@ Titan Foundry is the platform; it delivers three layers of banking-native AI on 
 
 ## Metadata
 
-- Last updated: 2026-06-23
+- Last updated: 2026-06-24
 - Canonical: https://www.titanbanking.ai/llms.txt
 - Company: Titan OS, Inc.
