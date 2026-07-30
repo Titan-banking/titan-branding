@@ -1,5 +1,6 @@
 # Titan AI — Brand System v1.0
 
+> Reference: Figma [`x1NPwCKRjYVPkRW1jlz4nv`](https://www.figma.com/design/x1NPwCKRjYVPkRW1jlz4nv/Titan-%E2%80%93-Brand-System-v1.0?node-id=1-15)  
 > Last Updated: 2026-03-02
 
 ---
@@ -10,7 +11,7 @@
 |---|---|
 | **Brand Name** | Titan AI |
 | **Wordmark** | `titan` — lowercase serif |
-| **Logo Mark** | Orange X / infinity mark |
+| **Logo Mark** | Orange interlocking knot |
 | **Archetype** | The Sage / Creator |
 | **Tone** | Elevated, thoughtful, elegant but approachable |
 
@@ -74,7 +75,7 @@
 
 ## Logo Usage
 
-### Mark — Infinity / X Symbol
+### Mark — Interlocking Knot
 
 ```svg
 <svg width="3017" height="3017" viewBox="0 0 3017 3017" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,7 +83,7 @@
 </svg>
 ```
 
-> **File:** `titan-mark.svg` — 3017×3017px, single path  
+> **File:** `titan_logo.svg` — 3017×3017px, single path  
 > **Color:** Copper Orange `#FF6E3C` (fill)  
 > **Alternate:** To produce a white or dark variant, change `fill` to `#FAFAF7` (Ivory White) or `#2E443B` (Evergreen Slate)
 
@@ -134,6 +135,15 @@
 - CTAs / buttons: Copper Orange `#FF6E3C`
 - Input borders / dividers: Warm Sand `#D7CFC7`
 - Success / active states: Dusty Sage `#A7B9A7` or Muted Teal `#3D5C52`
+
+---
+
+## Figma Reference
+
+| Asset | Node |
+|---|---|
+| Brand System v1.0 | [`node-id=1-15`](https://www.figma.com/design/x1NPwCKRjYVPkRW1jlz4nv/Titan-%E2%80%93-Brand-System-v1.0?node-id=1-15) |
+| File Key | `x1NPwCKRjYVPkRW1jlz4nv` |
 
 ---
 
