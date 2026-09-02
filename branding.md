@@ -124,6 +124,17 @@
 - Dividers: Warm Sand or Dusty Sage
 - Typography: Charcoal Slate for body, Ash Gray for captions
 
+### Presentation decks (HTML)
+
+For slides, use the `deck` skill in the org plugin marketplace
+(`titan-org-skills`, `titan-platform` plugin) — the reusable HTML deck system: fixed
+1920×1080 slides, ink cover and section dividers, paper content pages, keyboard navigation,
+and a print path that yields one slide per page for Save-as-PDF. It arrives automatically
+with the plugin; ask for a deck, a presentation, or slides, or invoke `/titan-platform:deck`.
+
+Use it for anything presented to the team or to a client. Research write-ups, investigation
+findings, and implementation plans are documents, not decks — they keep default styling.
+
 ### Presentations (PPTX)
 - Title slides: Evergreen Slate background, Ivory White type, Copper Orange accent mark
 - Content slides: Ivory White background, Charcoal Slate type
