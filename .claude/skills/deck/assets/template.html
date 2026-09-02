@@ -1,0 +1,141 @@
+<!--
+  Titan Foundry deck — skeleton.
+
+  Assemble an artifact by replacing the two PASTE markers below with the verbatim
+  contents of assets/deck-styles.css and assets/deck-stage.js. Do not link them:
+  an artifact is a single self-contained page under a strict CSP.
+
+  Artifacts are wrapped in <!doctype html><head></head><body> at publish time, so
+  this file starts at <title> — no html/head/body tags of your own.
+-->
+
+<title>Deck Name</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+/* PASTE assets/deck-styles.css HERE, verbatim */
+</style>
+
+<!-- PASTE assets/titan-icon-symbol.html HERE — the hidden <svg> holding <symbol id="titan-icon"> -->
+
+<deck-stage>
+
+<!-- ============ 01 — COVER ============ -->
+<section data-screen-label="01 Cover" class="cover divider">
+  <div class="chrome">
+    <div class="chrome-top">
+      <div class="brand-mark"><svg><use href="#titan-icon"/></svg><span>Titan Foundry</span></div>
+      <div class="caption">Internal · Audience</div>
+    </div>
+
+    <div style="flex:1; display:flex; flex-direction:column; justify-content:center;">
+      <svg class="cover-icon"><use href="#titan-icon"/></svg>
+      <!-- Force the break rather than trusting the wrap; widen max-width to the full
+           1728px content width so the first line can never reflow on another machine. -->
+      <h1 style="max-width:1728px;">First line of the title<br/><span class="orange">second line in copper.</span></h1>
+      <div class="cover-sub">
+        One or two sentences of standfirst. What this deck argues and why the reader
+        should care, in plain language.
+      </div>
+    </div>
+
+    <div class="cover-meta">
+      <div class="left">
+        <div><span class="k">Document</span><span class="v">Deck Name</span></div>
+        <div><span class="k">Ticket</span><span class="v">TITAN-0000</span></div>
+        <div><span class="k">Audience</span><span class="v">Eng · Product</span></div>
+        <div><span class="k">Date</span><span class="v">Month Year</span></div>
+      </div>
+      <div>01 / 03</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============ 02 — SECTION DIVIDER ============ -->
+<section data-screen-label="02 Part One" class="divider">
+  <div class="chrome">
+    <div class="chrome-top">
+      <div class="brand-mark"><svg><use href="#titan-icon"/></svg><span>Foundry</span><span class="pipe">/</span><span class="doc">Deck Name</span></div>
+      <div class="caption">Part one</div>
+    </div>
+
+    <div style="flex:1; display:flex; flex-direction:column; padding-top:40px;">
+      <div class="part-num">PART ONE — SECTION TITLE</div>
+      <h1>Short declarative claim. <span class="orange">Copper on the turn.</span></h1>
+      <div class="divider-sub">
+        A sentence setting up what the next few slides establish.
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <span class="doc-tag">FOUNDRY · DECK NAME</span>
+      <span class="page-num">02 / 03</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============ 03 — CONTENT ============ -->
+<section data-screen-label="03 Content">
+  <div class="chrome">
+    <div class="chrome-top">
+      <div class="brand-mark"><svg><use href="#titan-icon"/></svg><span>Foundry</span><span class="pipe">/</span><span class="doc">Deck Name</span></div>
+      <div class="caption">Section label</div>
+    </div>
+
+    <div class="content wide" style="margin-top:16px;">
+      <div>
+        <div class="eyebrow"><span class="num">03</span>Kicker</div>
+        <h1 class="title" style="font-size:56px;">
+          Headline for the slide. <span class="accent">One emphasis in copper.</span>
+        </h1>
+      </div>
+
+      <!-- Pipeline: .flow > .node, with .node.fail for a dead end -->
+      <div class="flow">
+        <div class="node">
+          <div><div class="n">01 · STAGE</div><div class="name">Step name</div></div>
+          <div class="meta">What happens here, in one line.</div>
+        </div>
+        <div class="node fail">
+          <div><div class="n">02 · FAILS</div><div class="name">Dead end</div></div>
+          <div class="meta">The state that must not happen silently.</div>
+        </div>
+        <div class="node">
+          <div><div class="n">03 · STAGE</div><div class="name">Step name</div></div>
+          <div class="meta">What happens here, in one line.</div>
+        </div>
+      </div>
+
+      <!-- Supporting cards; .card.tinted for the one that carries the accent -->
+      <div class="grid cols-3" style="gap:24px;">
+        <div class="card">
+          <div class="caption" style="margin-bottom:10px;">LABEL</div>
+          <p class="body" style="font-size:19px;">Supporting point.</p>
+        </div>
+        <div class="card">
+          <div class="caption" style="margin-bottom:10px;">LABEL</div>
+          <p class="body" style="font-size:19px;">Supporting point.</p>
+        </div>
+        <div class="card tinted">
+          <div class="caption" style="margin-bottom:10px; color:var(--orange);">LABEL</div>
+          <p class="body" style="font-size:19px;">The point worth accenting.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="chrome-bottom">
+      <span class="doc-tag">FOUNDRY · DECK NAME</span>
+      <span class="page-num">03 / 03</span>
+    </div>
+  </div>
+</section>
+
+</deck-stage>
+
+<script>
+/* PASTE assets/deck-stage.js HERE, verbatim */
+</script>
