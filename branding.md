@@ -126,11 +126,11 @@
 
 ### Presentation decks (HTML)
 
-The reusable HTML deck system lives in this repo at `.claude/skills/deck/` — fixed 1920×1080
-slides, ink cover and section dividers, paper content pages, keyboard navigation, and a print
-path that yields one slide per page for Save-as-PDF. Install it once with
-`bash .claude/skills/deck/install.sh` and it is available from any repo; ask for a deck, a
-presentation, or slides.
+For slides, use the `deck` skill in the org plugin marketplace
+(`titan-org-skills`, `titan-platform` plugin) — the reusable HTML deck system: fixed
+1920×1080 slides, ink cover and section dividers, paper content pages, keyboard navigation,
+and a print path that yields one slide per page for Save-as-PDF. It arrives automatically
+with the plugin; ask for a deck, a presentation, or slides, or invoke `/titan-platform:deck`.
 
 Use it for anything presented to the team or to a client. Research write-ups, investigation
 findings, and implementation plans are documents, not decks — they keep default styling.
